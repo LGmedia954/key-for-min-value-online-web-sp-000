@@ -5,7 +5,7 @@ def key_for_min_value(hash)
   lowest_key = nil
   lowest_value = nil
   hash.each do |key, value|
-    if least_count = nil || least_count < 2
+    if lowest_value == nil || value < lowest_value
     return choice
   else
     return nil
